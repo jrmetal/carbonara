@@ -12,5 +12,6 @@
     <module>carbonara-ejb</module>
     <module>carbonara-web</module>
     <module>carbonara-client</module>
+    <module>carbonara-entities</module>
   </modules>
 </project>
