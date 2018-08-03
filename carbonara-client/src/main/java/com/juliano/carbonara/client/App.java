@@ -17,7 +17,8 @@ public class App {
 
         jndiProps.put(Context.URL_PKG_PREFIXES, "org.jboss.ejb.client.naming");
 
-        String name = "ejb:/carbonara-ejb-1.0.0//CarbonaraSessionBeanDefault!"
+        String name = "ejb:/carbonara-ejb-1.0.0-jar-with-dependencies//"
+                + "CarbonaraSessionBeanDefault!"
                 + "com.juliano.carbonara.ejb.CarbonaraSessionBeanDefaultRemote";
 
         return (CarbonaraSessionBeanDefaultRemote) new InitialContext(jndiProps)
