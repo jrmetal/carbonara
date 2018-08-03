@@ -42,8 +42,8 @@ public class Cidade extends GenericEntitiey {
     @Transient
     public static final String PROPERTY_BAIRROS = "bairros";
 
-    @OneToMany(mappedBy = "cidade", targetEntity = Bairro.class, fetch = FetchType.LAZY)
-    private Set<Bairro> bairros;
+//    @OneToMany(mappedBy = "cidade", targetEntity = Bairro.class, fetch = FetchType.LAZY)
+//    private Set<Bairro> bairros;
 
     public char getStatus() {
         return status;
@@ -77,11 +77,11 @@ public class Cidade extends GenericEntitiey {
         this.codigoIBGE = codigoIBGE;
     }
 
-    public Set<Bairro> getBairros() {
-        return bairros;
-    }
-
-    public void setBairros(Set<Bairro> bairros) {
-        this.bairros = bairros;
-    }
+//    public Set<Bairro> getBairros() {
+//        return bairros;
+//    }
+//
+//    public void setBairros(Set<Bairro> bairros) {
+//        this.bairros = bairros;
+//    }
 }

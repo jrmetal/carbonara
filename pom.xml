@@ -13,5 +13,6 @@
     <module>carbonara-web</module>
     <module>carbonara-client</module>
     <module>carbonara-entities</module>
+    <module>carbonara-utilities</module>
   </modules>
 </project>

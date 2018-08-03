@@ -6,7 +6,7 @@
         <artifactId>carbonara</artifactId>
         <version>1.0.0</version>
     </parent>
-    <artifactId>carbonara-client</artifactId>
+    <artifactId>carbonara-utilities</artifactId>
     <packaging>jar</packaging>
     
     <dependencies>
@@ -15,32 +15,8 @@
             <artifactId>carbonara-ejb</artifactId>
             <version>1.0.0</version>
         </dependency>
-        
-        <dependency>
-            <groupId>org.wildfly</groupId>
-            <artifactId>wildfly-client-all</artifactId>
-            <version>10.1.0.Final</version>
-        </dependency>
-        
-        <dependency>
-            <groupId>com.juliano</groupId>
-            <artifactId>carbonara-entities</artifactId>
-            <version>1.0.0</version>
-        </dependency>
-        
-        <dependency>
-            <groupId>com.juliano</groupId>
-            <artifactId>carbonara-utilities</artifactId>
-            <version>1.0.0</version>
-        </dependency>
-        
-        <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <version>4.12</version>
-        </dependency>
-
     </dependencies>
+    
     <properties>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>

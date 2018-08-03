@@ -1,3 +1,5 @@
 /carbonara-client/target/
 /carbonara-ejb/target/
 /carbonara-entities/target/
+/carbonara-utilities/target/
+/carbonara-web/target/

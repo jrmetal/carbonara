@@ -26,10 +26,10 @@ public class Bairro extends GenericEntitiey {
     @Transient
     public static final String PROPERTY_CIDADE = "cidade";
 
-    @ManyToOne(optional = false, targetEntity = Cidade.class, fetch = FetchType.LAZY)
-    @JoinColumns(value = {
-        @JoinColumn(name = "CidadeID", nullable = false, unique = false, insertable = true, updatable = true, referencedColumnName = "ID")})
-    private Cidade cidade;
+//    @ManyToOne(optional = false, targetEntity = Cidade.class, fetch = FetchType.LAZY)
+//    @JoinColumns(value = {
+//        @JoinColumn(name = "CidadeID", nullable = false, unique = false, insertable = true, updatable = true, referencedColumnName = "ID")})
+//    private Cidade cidade;
 
     public char getStatus() {
         return status;
@@ -45,13 +45,5 @@ public class Bairro extends GenericEntitiey {
 
     public void setNome(String nome) {
         this.nome = nome;
-    }
-
-    public Cidade getCidade() {
-        return cidade;
-    }
-
-    public void setCidade(Cidade cidade) {
-        this.cidade = cidade;
     }
 }
